@@ -1,0 +1,199 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  
+}
+
+div.wrapper{
+  max-width: 100%;
+  padding-top: 3vh;
+  margin: 0;
+  color: rgb(8,5,5);
+  background-image: url("../img/2\ kolochava-g68393701d_1920.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* div.second-wrapper{
+  margin: auto;
+  text-align: center;
+} */
+
+aside{
+  width: 17%;
+  /* height: 70vh; */
+  background-color: rgba(28,116,180, 0.8);
+  /* color: rgb(100,100,100); */
+  margin-left: 4.25%;
+  margin-right: 4.25%;
+  /* display: inline-block; */
+  float: left;
+  font-size: 0;
+}
+
+aside ul li{
+  border-bottom: 1px dashed white;
+}
+
+aside ul li.menu-bar{
+  display: none;
+  width: 100%;
+  border: none;
+}
+
+aside ul li:nth-last-child(1){
+  border: none;
+}
+
+
+aside ul li a{
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: block;
+  font-size: 1.4vw;
+  padding: 1vh 0 1vh;
+  text-align: center;
+}
+
+aside ul li a:hover{
+  background-color: white;
+  color: rgba(28,116,180);
+  font-weight: bold;
+}
+
+aside ul li a.active{
+  background-color: white;
+  color: rgba(28,116,180);
+  font-weight: bold;
+}
+
+
+section{
+  /* margin-left: 10%; */
+  background-color: rgba(250,202,5,0.8);
+  /* display: inline-block; */
+  max-width: 70%;
+  padding: 20px;
+  float: left;
+}
+
+section p{
+  text-align: justify;
+  margin-top: 10px;
+}
+
+section p:first-of-type{
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+div.second-wrapper{
+  margin: 0 auto;
+}
+
+div.secondary{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/shepherd-g6246c0c50_1920.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+div.monuments{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/Telegdy-Rákóczi_castle_Chynadiyovo_2012_01.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+div.nature{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/3240px-Strychava_Uzhhorodskyi_Zakarpatska-Uzhanskyi_National_Nature_Park-Strychava_arch_bridge_in_the_Roman_style-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+div.uzhorod{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/ukraine-gbbc41cd34_1920.jpg");
+  background-size: cover;
+  background-position: 75%;
+  background-attachment: fixed;
+}
+
+div.mukaczewo{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/architecture-gd7e007c53_1920.jpg");
+  background-size: cover;
+  /* background-position: 75%; */
+  background-attachment: fixed;
+}
+
+div.border{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/Kroscienko_PL-UA_border_terminal.jpg");
+  background-size: cover;
+  /* background-position: 75%; */
+  background-attachment: fixed;
+}
+
+
+footer{
+  /* margin-top: 2vh; */
+  display: block;
+  margin-top: 3vh;
+  height: 5vh;
+  background-color: rgba(220,4,4,0.5);
+  color: rgb(8,5,5);
+  text-align: center;
+  line-height: 5vh;
+  font-size: 2vh;
+}
+
+footer.another-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 720px){
+  
+  aside{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 1%;
+    display: inline-block;
+  }
+  
+  aside ul li a{
+    color: white;
+    display: inline-block;
+    font-size: 2.8vw;
+    padding: 1vh 0 1vh;
+    text-align: center;
+  }
+  
+  section{
+    max-width: 90%;
+    padding: 5px;
+    margin: 10px 5%;
+    display: inline-block;
+  }
+  }
+  
+/* 
+@media (max-width: 720px){
+footer{
+  font-size: 2vw;
+}
+} */

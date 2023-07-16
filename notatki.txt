@@ -1,0 +1,40 @@
+element {
+	overflow: hidden;
+
+} // aby zawartość nie wychodziła poza div (albo inny element)
+
+span {
+  -webkit-text-stroke: 1px black; /* Szerokość obramowania i kolor */
+  -webkit-text-fill-color: white; /* Kolor wypełnienia tekstu */
+}
+
+
+a.btn1[#]
+
+a[#]*4 -->  <a href="" #=""></a><a href="" #=""></a>
+
+Anna Machowska-Wądołowska, książka o Omanie
+
+
+inspiracje co do wyglądu strony:
+
+- Awwwards;
+- TemplateMonster
+
+@media (orientation: landscape) and (min-width: 600px){
+  h1{
+    font-size: 24px;
+  }
+}
+
+Oczywiście nadal możesz skorzystać z font-awesome w tej samej wersjiz której korzystamy w kursie, wystarczy wkleić w head link wygenerowany np. tutaj:  https://cdnjs.com/libraries/font-awesome/5.1.1
+
+Plik css do wklejenia w naszym headzie: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css (w miejsce linka użytego przeze mnie)
+
+Lub od razu jako całość:
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+Wyszukiwarkę Icon (dla wersji 5) znajdziesz tutaj: https://fontawesome.com/v5/search
